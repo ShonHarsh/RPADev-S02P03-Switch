@@ -1,6 +1,6 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/uipath-logo.png)
 
-# S00P00 Title
+# S02P03 Title
 
 This project is my solution in **C#** to the **Switch** practice found in section 02 practice 01 of the UiPath - RPA Developer Foundation course.
 
@@ -12,11 +12,11 @@ After making a pull request or downloading the project, open the Main.xaml in Ui
 
 ###### **Separate a collection of error codes using Switch**
 
-Considering a collection of error codes stored in an Array of Strings, separate them based on their type of error code ("Ax", "Bx" or “Cx”) and store them in 3 different arrays.
+Considering a collection of error codes stored in an Array of Strings, separate them based on their type of error code ("Ax", "Bx" or "Cx") and store them in 3 different arrays.
 
 **Note**: The initial Array should contain the following values:
 
-"Ax001","Ax002","Ax003","Ax004","Ax005","Bx001","Bx002","Bx003","Cx001","Cx002","Cx003","Cx004"
+{"Ax001", "Ax002", "Ax003", "Ax004", "Ax005", "Bx001", "Bx002", "Bx003", "Cx001", "Cx002", "Cx003", "Cx004", "Dx314", "BadError"}
 
 ### Details
 
@@ -33,14 +33,26 @@ Considering a collection of error codes stored in an Array of Strings, separate 
 ### Sample Output
 
 ```
-07/16/2021 14:17:08 => [Debug] Execution started for project: SRPADev-S02P03-Switch
-07/16/2021 14:17:10 => [Info] SRPADev-S02P03-Switch execution started
-07/16/2021 14:17:11 => [Debug] The processing encountered the default case of the error codes.  The unhandled error code value is: Dx314
-07/16/2021 14:17:11 => [Debug] The processing encountered the default case of the error codes.  The unhandled error code value is: BadError
-07/16/2021 14:17:11 => [Debug] AX codes: Ax001, Ax002, Ax003, Ax004, Ax005
-07/16/2021 14:17:11 => [Debug] BX codes: Bx001, Bx002, Bx003
-07/16/2021 14:17:11 => [Debug] CX codes: Cx001, Cx002, Cx003, Cx004
-07/16/2021 14:17:11 => [Info] SRPADev-S02P03-Switch execution ended in: 00:00:01
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch execution started
+04/02/2024 12:41:42 => [Warning] RPADev-S02P03-Switch.Main.Switch.Default; An unhandled error code was encountered. Error Code: Dx314
+04/02/2024 12:41:42 => [Warning] RPADev-S02P03-Switch.Main.Switch.Default; An unhandled error code was encountered. Error Code: BadError
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch.Main.ErrorCodes.Ax;
+Ax001
+Ax002
+Ax003
+Ax004
+Ax005
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch.Main.ErrorCodes.Bx;
+Bx001
+Bx002
+Bx003
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch.Main.ErrorCodes.Cx;
+Cx001
+Cx002
+Cx003
+Cx004
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch execution ended in: 00:00:00
+
 ```
 
 ### ARCHITECTURE REQUIREMENTS
