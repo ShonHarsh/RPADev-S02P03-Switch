@@ -1,6 +1,6 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/uipath-logo.png)
 
-# S02P03 Title
+# S02P03 Switch
 
 This project is my solution in **C#** to the **Switch** practice found in section 02 practice 01 of the UiPath - RPA Developer Foundation course.
 
