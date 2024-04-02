@@ -1,0 +1,19 @@
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch execution started
+04/02/2024 12:41:42 => [Warning] RPADev-S02P03-Switch.Main.Switch.Default; An unhandled error code was encountered. Error Code: Dx314
+04/02/2024 12:41:42 => [Warning] RPADev-S02P03-Switch.Main.Switch.Default; An unhandled error code was encountered. Error Code: BadError
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch.Main.ErrorCodes.Ax; 
+Ax001
+Ax002
+Ax003
+Ax004
+Ax005
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch.Main.ErrorCodes.Bx; 
+Bx001
+Bx002
+Bx003
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch.Main.ErrorCodes.Cx; 
+Cx001
+Cx002
+Cx003
+Cx004
+04/02/2024 12:41:42 => [Info] RPADev-S02P03-Switch execution ended in: 00:00:00
